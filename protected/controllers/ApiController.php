@@ -82,8 +82,11 @@ class ApiController extends Controller
 			$newUser=new User;
 			$criteria=new CDbCriteria;
 			$criteria->select='max(id) AS maxColumn';
-			$row = $newUser->model()->find($criteria);		
-			$userId = $row['maxColumn']+1;
+			 $max = Yii::app()->db->createCommand("SELECT * FROM user WHERE user.created IN (SELECT max(created) FROM user)")->queryScalar();
+			
+			//$row=User::model()->find($criteria);
+			//$row = $newUser->model()->find($criteria);	
+			$userId = $max+1;//$row['maxColumn']+1;
 			$newUser->id=$userId;
 			$newUser->email=$user_id;
 			$newUser->created = date('Y-n-d g:i:s',time());

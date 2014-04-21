@@ -3303,3 +3303,713 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/favicon.ico
 ---
+2014/04/15 14:55:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "manager/html".' in /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('manager/html')
+#1 /var/www/koala/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/koala/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/manager/html
+---
+2014/04/16 20:59:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "web-console/ServerInfo.jsp".' in /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('web-console/Ser...')
+#1 /var/www/koala/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/koala/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/web-console/ServerInfo.jsp
+---
+2014/04/16 21:49:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "web-console/ServerInfo.jsp".' in /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('web-console/Ser...')
+#1 /var/www/koala/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/koala/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/web-console/ServerInfo.jsp
+---
+2014/04/16 22:24:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "web-console/ServerInfo.jsp".' in /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('web-console/Ser...')
+#1 /var/www/koala/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/koala/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/web-console/ServerInfo.jsp
+---
+2014/04/16 22:36:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "web-console/ServerInfo.jsp".' in /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('web-console/Ser...')
+#1 /var/www/koala/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/koala/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/web-console/ServerInfo.jsp
+---
+2014/04/17 00:57:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vicidial/project_auth_entries.txt".' in /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('vicidial/projec...')
+#1 /var/www/koala/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/koala/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vicidial/project_auth_entries.txt
+---
+2014/04/17 01:12:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "phpTest/zologize/axa.php".' in /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('phpTest/zologiz...')
+#1 /var/www/koala/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/koala/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/phpTest/zologize/axa.php
+---
+2014/04/17 01:12:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "phpMyAdmin/scripts/setup.php".' in /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('phpMyAdmin/scri...')
+#1 /var/www/koala/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/koala/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/phpMyAdmin/scripts/setup.php
+---
+2014/04/17 01:12:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "pma/scripts/setup.php".' in /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('pma/scripts/set...')
+#1 /var/www/koala/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/koala/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/pma/scripts/setup.php
+---
+2014/04/17 01:12:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "myadmin/scripts/setup.php".' in /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('myadmin/scripts...')
+#1 /var/www/koala/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/koala/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/myadmin/scripts/setup.php
+---
+2014/04/17 02:48:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "phpTest/zologize/axa.php".' in /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('phpTest/zologiz...')
+#1 /var/www/koala/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/koala/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/phpTest/zologize/axa.php
+---
+2014/04/17 02:48:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "phpMyAdmin/scripts/setup.php".' in /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('phpMyAdmin/scri...')
+#1 /var/www/koala/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/koala/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/phpMyAdmin/scripts/setup.php
+---
+2014/04/17 02:48:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "pma/scripts/setup.php".' in /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('pma/scripts/set...')
+#1 /var/www/koala/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/koala/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/pma/scripts/setup.php
+---
+2014/04/17 02:48:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "myadmin/scripts/setup.php".' in /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('myadmin/scripts...')
+#1 /var/www/koala/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/koala/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/myadmin/scripts/setup.php
+---
+2014/04/17 08:12:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "muieblackcat".' in /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('muieblackcat')
+#1 /var/www/koala/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/koala/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/muieblackcat
+---
+2014/04/17 08:12:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "phpadmin/scripts/setup.php".' in /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('phpadmin/script...')
+#1 /var/www/koala/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/koala/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=//phpadmin/scripts/setup.php
+---
+2014/04/17 08:12:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "phpmyadmin/scripts/setup.php".' in /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('phpmyadmin/scri...')
+#1 /var/www/koala/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/koala/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=//phpmyadmin/scripts/setup.php
+---
+2014/04/17 08:12:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "phpMyAdmin/scripts/setup.php".' in /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('phpMyAdmin/scri...')
+#1 /var/www/koala/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/koala/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=//phpMyAdmin/scripts/setup.php
+---
+2014/04/18 06:34:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "web-console/ServerInfo.jsp".' in /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('web-console/Ser...')
+#1 /var/www/koala/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/koala/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/web-console/ServerInfo.jsp
+---
+2014/04/18 09:44:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "robots.txt".' in /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('robots.txt')
+#1 /var/www/koala/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/koala/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/robots.txt
+---
+2014/04/18 11:59:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "phpTest/zologize/axa.php".' in /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('phpTest/zologiz...')
+#1 /var/www/koala/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/koala/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/phpTest/zologize/axa.php
+---
+2014/04/18 11:59:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "phpMyAdmin/scripts/setup.php".' in /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('phpMyAdmin/scri...')
+#1 /var/www/koala/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/koala/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/phpMyAdmin/scripts/setup.php
+---
+2014/04/18 11:59:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "pma/scripts/setup.php".' in /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('pma/scripts/set...')
+#1 /var/www/koala/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/koala/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/pma/scripts/setup.php
+---
+2014/04/18 11:59:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "myadmin/scripts/setup.php".' in /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('myadmin/scripts...')
+#1 /var/www/koala/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/koala/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/myadmin/scripts/setup.php
+---
+2014/04/18 19:38:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "phpTest/zologize/axa.php".' in /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('phpTest/zologiz...')
+#1 /var/www/koala/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/koala/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/phpTest/zologize/axa.php
+---
+2014/04/18 19:38:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "phpMyAdmin/scripts/setup.php".' in /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('phpMyAdmin/scri...')
+#1 /var/www/koala/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/koala/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/phpMyAdmin/scripts/setup.php
+---
+2014/04/18 19:38:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "pma/scripts/setup.php".' in /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('pma/scripts/set...')
+#1 /var/www/koala/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/koala/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/pma/scripts/setup.php
+---
+2014/04/18 19:38:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "myadmin/scripts/setup.php".' in /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('myadmin/scripts...')
+#1 /var/www/koala/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/koala/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/myadmin/scripts/setup.php
+---
+2014/04/19 07:23:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "phpTest/zologize/axa.php".' in /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('phpTest/zologiz...')
+#1 /var/www/koala/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/koala/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/phpTest/zologize/axa.php
+---
+2014/04/19 07:23:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "phpMyAdmin/scripts/setup.php".' in /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('phpMyAdmin/scri...')
+#1 /var/www/koala/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/koala/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/phpMyAdmin/scripts/setup.php
+---
+2014/04/19 07:23:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "pma/scripts/setup.php".' in /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('pma/scripts/set...')
+#1 /var/www/koala/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/koala/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/pma/scripts/setup.php
+---
+2014/04/19 07:23:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "myadmin/scripts/setup.php".' in /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('myadmin/scripts...')
+#1 /var/www/koala/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/koala/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/myadmin/scripts/setup.php
+---
+2014/04/19 18:10:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "phpTest/zologize/axa.php".' in /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('phpTest/zologiz...')
+#1 /var/www/koala/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/koala/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/phpTest/zologize/axa.php
+---
+2014/04/19 18:10:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "phpMyAdmin/scripts/setup.php".' in /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('phpMyAdmin/scri...')
+#1 /var/www/koala/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/koala/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/phpMyAdmin/scripts/setup.php
+---
+2014/04/19 18:10:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "pma/scripts/setup.php".' in /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('pma/scripts/set...')
+#1 /var/www/koala/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/koala/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/pma/scripts/setup.php
+---
+2014/04/19 18:10:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "myadmin/scripts/setup.php".' in /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('myadmin/scripts...')
+#1 /var/www/koala/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/koala/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/myadmin/scripts/setup.php
+---
+2014/04/19 22:36:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "phpTest/zologize/axa.php".' in /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('phpTest/zologiz...')
+#1 /var/www/koala/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/koala/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/phpTest/zologize/axa.php
+---
+2014/04/19 22:36:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "phpMyAdmin/scripts/setup.php".' in /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('phpMyAdmin/scri...')
+#1 /var/www/koala/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/koala/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/phpMyAdmin/scripts/setup.php
+---
+2014/04/19 22:36:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "pma/scripts/setup.php".' in /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('pma/scripts/set...')
+#1 /var/www/koala/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/koala/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/pma/scripts/setup.php
+---
+2014/04/19 22:36:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "myadmin/scripts/setup.php".' in /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('myadmin/scripts...')
+#1 /var/www/koala/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/koala/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/myadmin/scripts/setup.php
+---
+2014/04/20 10:23:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "phpTest/zologize/axa.php".' in /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('phpTest/zologiz...')
+#1 /var/www/koala/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/koala/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/phpTest/zologize/axa.php
+---
+2014/04/20 10:23:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "phpMyAdmin/scripts/setup.php".' in /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('phpMyAdmin/scri...')
+#1 /var/www/koala/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/koala/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/phpMyAdmin/scripts/setup.php
+---
+2014/04/20 10:23:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "pma/scripts/setup.php".' in /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('pma/scripts/set...')
+#1 /var/www/koala/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/koala/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/pma/scripts/setup.php
+---
+2014/04/20 14:04:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "phpTest/zologize/axa.php".' in /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('phpTest/zologiz...')
+#1 /var/www/koala/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/koala/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/phpTest/zologize/axa.php
+---
+2014/04/20 14:04:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "phpMyAdmin/scripts/setup.php".' in /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('phpMyAdmin/scri...')
+#1 /var/www/koala/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/koala/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/phpMyAdmin/scripts/setup.php
+---
+2014/04/20 14:04:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "pma/scripts/setup.php".' in /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('pma/scripts/set...')
+#1 /var/www/koala/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/koala/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/pma/scripts/setup.php
+---
+2014/04/20 14:04:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "myadmin/scripts/setup.php".' in /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('myadmin/scripts...')
+#1 /var/www/koala/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/koala/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/myadmin/scripts/setup.php
+---
+2014/04/20 21:05:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "robots.txt".' in /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('robots.txt')
+#1 /var/www/koala/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/koala/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/robots.txt
+---
+2014/04/21 00:06:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "manager/html".' in /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('manager/html')
+#1 /var/www/koala/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/koala/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/manager/html
+---
+2014/04/21 14:58:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/php/cgin/php".' in /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/php/cgi...')
+#1 /var/www/koala/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/koala/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/php/%63%67%69%6E/%70%68%70?%2D%64+%61%6C%75%6F%6E+%2D%64+%6D%6F%64+%2D%64+%73%75%68%6F%6E%3D%6F%6E+%2D%64+%75%6E%63%74%73%3D%22%22+%2D%64+%64%6E%65+%2D%64+%61%75%74%6F%5F%70%72%%74+%2D%64+%63%67%69%2E%66%6F%72%63%65%5F%72%65%64%69%72%65%63%74%3D%30+%2D%64+%74%5F%3D%30+%2D%64+%75%74+%2D%6E
+---
+2014/04/21 15:22:01 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '10' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `user` (`id`, `email`, `created`) VALUES (:yp0, :yp1, :yp2).
+in /var/www/koala/protected/controllers/ApiController.php (90)
+in /var/www/koala/protected/controllers/ApiController.php (278)
+in /var/www/koala/index.php (13)
+2014/04/21 15:22:01 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '10' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `user` (`id`, `email`, `created`) VALUES (:yp0, :yp1, :yp2)' in /var/www/koala/yii-1.1.14.f0fee9/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /var/www/koala/yii-1.1.14.f0fee9/framework/db/ar/CActiveRecord.php(1077): CDbCommand->execute()
+#1 /var/www/koala/yii-1.1.14.f0fee9/framework/db/ar/CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 /var/www/koala/protected/controllers/ApiController.php(90): CActiveRecord->save()
+#3 /var/www/koala/protected/controllers/ApiController.php(278): ApiController->checkUser('info@sisecam.co...')
+#4 /var/www/koala/yii-1.1.14.f0fee9/framework/web/actions/CInlineAction.php(49): ApiController->actionGetUserBooks()
+#5 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#7 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(282): CController->run('getUserBooks')
+#9 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('api/getUserBook...')
+#10 /var/www/koala/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/koala/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/api/getUserBooks
+HTTP_REFERER=http://reader.linden-tech.com/site/library
+---
+2014/04/21 15:22:08 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '10' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `user` (`id`, `email`, `created`) VALUES (:yp0, :yp1, :yp2).
+in /var/www/koala/protected/controllers/ApiController.php (90)
+in /var/www/koala/protected/controllers/ApiController.php (128)
+in /var/www/koala/index.php (13)
+2014/04/21 15:22:08 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '10' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `user` (`id`, `email`, `created`) VALUES (:yp0, :yp1, :yp2)' in /var/www/koala/yii-1.1.14.f0fee9/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /var/www/koala/yii-1.1.14.f0fee9/framework/db/ar/CActiveRecord.php(1077): CDbCommand->execute()
+#1 /var/www/koala/yii-1.1.14.f0fee9/framework/db/ar/CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 /var/www/koala/protected/controllers/ApiController.php(90): CActiveRecord->save()
+#3 /var/www/koala/protected/controllers/ApiController.php(128): ApiController->checkUser('info@sisecam.co...')
+#4 /var/www/koala/yii-1.1.14.f0fee9/framework/web/actions/CInlineAction.php(49): ApiController->actionCheckUserBook()
+#5 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#7 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(282): CController->run('checkUserBook')
+#9 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('api/checkUserBo...')
+#10 /var/www/koala/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/koala/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/api/checkUserBook
+HTTP_REFERER=http://reader.linden-tech.com/content/details/QZaDijD8TP5ux2p40kEqZNgIf6uWjrvwxkgGoajeAbhK
+---
+2014/04/21 15:22:14 [error] [php] Trying to get property of non-object (/var/www/koala/protected/controllers/ApiController.php:311)
+Stack trace:
+#0 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CController.php(286): ApiController->runAction()
+#1 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CController.php(265): ApiController->runActionWithFilters()
+#2 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(282): ApiController->run()
+#3 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/koala/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /var/www/koala/index.php(13): CWebApplication->run()
+REQUEST_URI=/api/addUserBook
+in /var/www/koala/protected/controllers/ApiController.php (311)
+in /var/www/koala/index.php (13)
+2014/04/21 15:26:26 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '10' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `user` (`id`, `email`, `created`) VALUES (:yp0, :yp1, :yp2).
+in /var/www/koala/protected/controllers/ApiController.php (90)
+in /var/www/koala/protected/controllers/ApiController.php (278)
+in /var/www/koala/index.php (13)
+2014/04/21 15:26:26 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '10' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `user` (`id`, `email`, `created`) VALUES (:yp0, :yp1, :yp2)' in /var/www/koala/yii-1.1.14.f0fee9/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /var/www/koala/yii-1.1.14.f0fee9/framework/db/ar/CActiveRecord.php(1077): CDbCommand->execute()
+#1 /var/www/koala/yii-1.1.14.f0fee9/framework/db/ar/CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 /var/www/koala/protected/controllers/ApiController.php(90): CActiveRecord->save()
+#3 /var/www/koala/protected/controllers/ApiController.php(278): ApiController->checkUser('info@sisecam.co...')
+#4 /var/www/koala/yii-1.1.14.f0fee9/framework/web/actions/CInlineAction.php(49): ApiController->actionGetUserBooks()
+#5 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#7 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(282): CController->run('getUserBooks')
+#9 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('api/getUserBook...')
+#10 /var/www/koala/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/koala/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/api/getUserBooks
+HTTP_REFERER=http://reader.linden-tech.com/site/library
+---
+2014/04/21 15:26:39 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '10' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `user` (`id`, `email`, `created`) VALUES (:yp0, :yp1, :yp2).
+in /var/www/koala/protected/controllers/ApiController.php (90)
+in /var/www/koala/protected/controllers/ApiController.php (278)
+in /var/www/koala/index.php (13)
+2014/04/21 15:26:39 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '10' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `user` (`id`, `email`, `created`) VALUES (:yp0, :yp1, :yp2)' in /var/www/koala/yii-1.1.14.f0fee9/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /var/www/koala/yii-1.1.14.f0fee9/framework/db/ar/CActiveRecord.php(1077): CDbCommand->execute()
+#1 /var/www/koala/yii-1.1.14.f0fee9/framework/db/ar/CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 /var/www/koala/protected/controllers/ApiController.php(90): CActiveRecord->save()
+#3 /var/www/koala/protected/controllers/ApiController.php(278): ApiController->checkUser('info@sisecam.co...')
+#4 /var/www/koala/yii-1.1.14.f0fee9/framework/web/actions/CInlineAction.php(49): ApiController->actionGetUserBooks()
+#5 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#7 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(282): CController->run('getUserBooks')
+#9 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('api/getUserBook...')
+#10 /var/www/koala/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/koala/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/api/getUserBooks
+HTTP_REFERER=http://reader.linden-tech.com/site/library
+---
+2014/04/21 15:26:48 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '10' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `user` (`id`, `email`, `created`) VALUES (:yp0, :yp1, :yp2).
+in /var/www/koala/protected/controllers/ApiController.php (90)
+in /var/www/koala/protected/controllers/ApiController.php (128)
+in /var/www/koala/index.php (13)
+2014/04/21 15:26:48 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '10' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `user` (`id`, `email`, `created`) VALUES (:yp0, :yp1, :yp2)' in /var/www/koala/yii-1.1.14.f0fee9/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /var/www/koala/yii-1.1.14.f0fee9/framework/db/ar/CActiveRecord.php(1077): CDbCommand->execute()
+#1 /var/www/koala/yii-1.1.14.f0fee9/framework/db/ar/CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 /var/www/koala/protected/controllers/ApiController.php(90): CActiveRecord->save()
+#3 /var/www/koala/protected/controllers/ApiController.php(128): ApiController->checkUser('info@sisecam.co...')
+#4 /var/www/koala/yii-1.1.14.f0fee9/framework/web/actions/CInlineAction.php(49): ApiController->actionCheckUserBook()
+#5 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#7 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(282): CController->run('checkUserBook')
+#9 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('api/checkUserBo...')
+#10 /var/www/koala/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/koala/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/api/checkUserBook
+HTTP_REFERER=http://reader.linden-tech.com/content/details/QZaDijD8TP5ux2p40kEqZNgIf6uWjrvwxkgGoajeAbhK
+---
+2014/04/21 15:27:04 [error] [php] Trying to get property of non-object (/var/www/koala/protected/controllers/ApiController.php:311)
+Stack trace:
+#0 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CController.php(286): ApiController->runAction()
+#1 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CController.php(265): ApiController->runActionWithFilters()
+#2 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(282): ApiController->run()
+#3 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/koala/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /var/www/koala/index.php(13): CWebApplication->run()
+REQUEST_URI=/api/addUserBook
+in /var/www/koala/protected/controllers/ApiController.php (311)
+in /var/www/koala/index.php (13)
+2014/04/21 15:28:02 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '10' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `user` (`id`, `email`, `created`) VALUES (:yp0, :yp1, :yp2).
+in /var/www/koala/protected/controllers/ApiController.php (90)
+in /var/www/koala/protected/controllers/ApiController.php (278)
+in /var/www/koala/index.php (13)
+2014/04/21 15:28:02 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '10' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `user` (`id`, `email`, `created`) VALUES (:yp0, :yp1, :yp2)' in /var/www/koala/yii-1.1.14.f0fee9/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /var/www/koala/yii-1.1.14.f0fee9/framework/db/ar/CActiveRecord.php(1077): CDbCommand->execute()
+#1 /var/www/koala/yii-1.1.14.f0fee9/framework/db/ar/CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 /var/www/koala/protected/controllers/ApiController.php(90): CActiveRecord->save()
+#3 /var/www/koala/protected/controllers/ApiController.php(278): ApiController->checkUser('info@sisecam.co...')
+#4 /var/www/koala/yii-1.1.14.f0fee9/framework/web/actions/CInlineAction.php(49): ApiController->actionGetUserBooks()
+#5 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#7 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(282): CController->run('getUserBooks')
+#9 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('api/getUserBook...')
+#10 /var/www/koala/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/koala/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/api/getUserBooks
+HTTP_REFERER=http://reader.linden-tech.com/site/library
+---
+2014/04/21 15:29:19 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '10' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `user` (`id`, `email`, `created`) VALUES (:yp0, :yp1, :yp2).
+in /var/www/koala/protected/controllers/ApiController.php (90)
+in /var/www/koala/protected/controllers/ApiController.php (278)
+in /var/www/koala/index.php (13)
+2014/04/21 15:29:19 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '10' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `user` (`id`, `email`, `created`) VALUES (:yp0, :yp1, :yp2)' in /var/www/koala/yii-1.1.14.f0fee9/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /var/www/koala/yii-1.1.14.f0fee9/framework/db/ar/CActiveRecord.php(1077): CDbCommand->execute()
+#1 /var/www/koala/yii-1.1.14.f0fee9/framework/db/ar/CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 /var/www/koala/protected/controllers/ApiController.php(90): CActiveRecord->save()
+#3 /var/www/koala/protected/controllers/ApiController.php(278): ApiController->checkUser('info@sisecam.co...')
+#4 /var/www/koala/yii-1.1.14.f0fee9/framework/web/actions/CInlineAction.php(49): ApiController->actionGetUserBooks()
+#5 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#7 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(282): CController->run('getUserBooks')
+#9 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('api/getUserBook...')
+#10 /var/www/koala/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/koala/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/api/getUserBooks
+HTTP_REFERER=http://reader.linden-tech.com/site/library
+---
+2014/04/21 15:41:15 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '10' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `user` (`id`, `email`, `created`) VALUES (:yp0, :yp1, :yp2).
+in /var/www/koala/protected/controllers/ApiController.php (91)
+in /var/www/koala/protected/controllers/ApiController.php (279)
+in /var/www/koala/index.php (13)
+2014/04/21 15:41:15 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '10' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `user` (`id`, `email`, `created`) VALUES (:yp0, :yp1, :yp2)' in /var/www/koala/yii-1.1.14.f0fee9/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /var/www/koala/yii-1.1.14.f0fee9/framework/db/ar/CActiveRecord.php(1077): CDbCommand->execute()
+#1 /var/www/koala/yii-1.1.14.f0fee9/framework/db/ar/CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 /var/www/koala/protected/controllers/ApiController.php(91): CActiveRecord->save()
+#3 /var/www/koala/protected/controllers/ApiController.php(279): ApiController->checkUser('info@sisecam.co...')
+#4 /var/www/koala/yii-1.1.14.f0fee9/framework/web/actions/CInlineAction.php(49): ApiController->actionGetUserBooks()
+#5 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#7 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(282): CController->run('getUserBooks')
+#9 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('api/getUserBook...')
+#10 /var/www/koala/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/koala/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/api/getUserBooks
+HTTP_REFERER=http://reader.linden-tech.com/site/library
+---
+2014/04/21 15:43:27 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '10' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `user` (`id`, `email`, `created`) VALUES (:yp0, :yp1, :yp2).
+in /var/www/koala/protected/controllers/ApiController.php (93)
+in /var/www/koala/protected/controllers/ApiController.php (281)
+in /var/www/koala/index.php (13)
+2014/04/21 15:43:27 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '10' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `user` (`id`, `email`, `created`) VALUES (:yp0, :yp1, :yp2)' in /var/www/koala/yii-1.1.14.f0fee9/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /var/www/koala/yii-1.1.14.f0fee9/framework/db/ar/CActiveRecord.php(1077): CDbCommand->execute()
+#1 /var/www/koala/yii-1.1.14.f0fee9/framework/db/ar/CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 /var/www/koala/protected/controllers/ApiController.php(93): CActiveRecord->save()
+#3 /var/www/koala/protected/controllers/ApiController.php(281): ApiController->checkUser('info@sisecam.co...')
+#4 /var/www/koala/yii-1.1.14.f0fee9/framework/web/actions/CInlineAction.php(49): ApiController->actionGetUserBooks()
+#5 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#7 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(282): CController->run('getUserBooks')
+#9 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('api/getUserBook...')
+#10 /var/www/koala/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/koala/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/api/getUserBooks
+HTTP_REFERER=http://reader.linden-tech.com/site/library
+---
+2014/04/21 15:43:34 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '10' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `user` (`id`, `email`, `created`) VALUES (:yp0, :yp1, :yp2).
+in /var/www/koala/protected/controllers/ApiController.php (93)
+in /var/www/koala/protected/controllers/ApiController.php (281)
+in /var/www/koala/index.php (13)
+2014/04/21 15:43:34 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '10' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `user` (`id`, `email`, `created`) VALUES (:yp0, :yp1, :yp2)' in /var/www/koala/yii-1.1.14.f0fee9/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /var/www/koala/yii-1.1.14.f0fee9/framework/db/ar/CActiveRecord.php(1077): CDbCommand->execute()
+#1 /var/www/koala/yii-1.1.14.f0fee9/framework/db/ar/CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 /var/www/koala/protected/controllers/ApiController.php(93): CActiveRecord->save()
+#3 /var/www/koala/protected/controllers/ApiController.php(281): ApiController->checkUser('info@sisecam.co...')
+#4 /var/www/koala/yii-1.1.14.f0fee9/framework/web/actions/CInlineAction.php(49): ApiController->actionGetUserBooks()
+#5 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#7 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(282): CController->run('getUserBooks')
+#9 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('api/getUserBook...')
+#10 /var/www/koala/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/koala/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/api/getUserBooks
+HTTP_REFERER=http://reader.linden-tech.com/site/library
+---
+2014/04/21 15:49:17 [error] [php] Trying to get property of non-object (/var/www/koala/protected/controllers/ApiController.php:89)
+Stack trace:
+#0 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CController.php(286): ApiController->runAction()
+#2 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CController.php(265): ApiController->runActionWithFilters()
+#3 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(282): ApiController->run()
+#4 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /var/www/koala/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /var/www/koala/index.php(13): CWebApplication->run()
+REQUEST_URI=/api/getUserBooks
+in /var/www/koala/protected/controllers/ApiController.php (89)
+in /var/www/koala/protected/controllers/ApiController.php (283)
+in /var/www/koala/index.php (13)
+2014/04/21 15:52:13 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'table WHERE Dates IN (SELECT max(created) FROM user)' at line 1. The SQL statement executed was: SELECT * FROM table WHERE Dates IN (SELECT max(created) FROM user);.
+in /var/www/koala/protected/controllers/ApiController.php (85)
+in /var/www/koala/protected/controllers/ApiController.php (283)
+in /var/www/koala/index.php (13)
+2014/04/21 15:52:13 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'table WHERE Dates IN (SELECT max(created) FROM user)' at line 1. The SQL statement executed was: SELECT * FROM table WHERE Dates IN (SELECT max(created) FROM user);' in /var/www/koala/yii-1.1.14.f0fee9/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /var/www/koala/yii-1.1.14.f0fee9/framework/db/CDbCommand.php(433): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 /var/www/koala/protected/controllers/ApiController.php(85): CDbCommand->queryScalar()
+#2 /var/www/koala/protected/controllers/ApiController.php(283): ApiController->checkUser('info@sisecam.co...')
+#3 /var/www/koala/yii-1.1.14.f0fee9/framework/web/actions/CInlineAction.php(49): ApiController->actionGetUserBooks()
+#4 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(282): CController->run('getUserBooks')
+#8 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('api/getUserBook...')
+#9 /var/www/koala/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /var/www/koala/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/api/getUserBooks
+HTTP_REFERER=http://reader.linden-tech.com/site/library
+---
+2014/04/21 15:52:48 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'table WHERE created IN (SELECT max(created) FROM user)' at line 1. The SQL statement executed was: SELECT * FROM table WHERE created IN (SELECT max(created) FROM user);.
+in /var/www/koala/protected/controllers/ApiController.php (85)
+in /var/www/koala/protected/controllers/ApiController.php (283)
+in /var/www/koala/index.php (13)
+2014/04/21 15:52:48 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'table WHERE created IN (SELECT max(created) FROM user)' at line 1. The SQL statement executed was: SELECT * FROM table WHERE created IN (SELECT max(created) FROM user);' in /var/www/koala/yii-1.1.14.f0fee9/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /var/www/koala/yii-1.1.14.f0fee9/framework/db/CDbCommand.php(433): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 /var/www/koala/protected/controllers/ApiController.php(85): CDbCommand->queryScalar()
+#2 /var/www/koala/protected/controllers/ApiController.php(283): ApiController->checkUser('info@sisecam.co...')
+#3 /var/www/koala/yii-1.1.14.f0fee9/framework/web/actions/CInlineAction.php(49): ApiController->actionGetUserBooks()
+#4 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(282): CController->run('getUserBooks')
+#8 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('api/getUserBook...')
+#9 /var/www/koala/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /var/www/koala/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/api/getUserBooks
+HTTP_REFERER=http://reader.linden-tech.com/site/library
+---
+2014/04/21 15:58:49 [error] [php] Trying to get property of non-object (/var/www/koala/protected/controllers/ApiController.php:89)
+Stack trace:
+#0 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CController.php(286): ApiController->runAction()
+#2 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CController.php(265): ApiController->runActionWithFilters()
+#3 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(282): ApiController->run()
+#4 /var/www/koala/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /var/www/koala/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /var/www/koala/index.php(13): CWebApplication->run()
+REQUEST_URI=/api/getUserBooks
+in /var/www/koala/protected/controllers/ApiController.php (89)
+in /var/www/koala/protected/controllers/ApiController.php (283)
+in /var/www/koala/index.php (13)
