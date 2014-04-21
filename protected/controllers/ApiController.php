@@ -14,7 +14,7 @@ class ApiController extends Controller
 
 
 		header('Content-type: plain/text');
-		header("Content-length: " . strlen($response_string) ); // tells file size
+		header("Content-length: " . strlen($response_string) ); //tells file size
 		echo $response_string;
 	}
  
