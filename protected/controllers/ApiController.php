@@ -116,12 +116,14 @@ class ApiController extends Controller
 	public function actionCheckUserBook()
 	{
 		$response=null;
+		
 		$ID=$this->authenticate();
 		if (!$ID) {
 			$this->error("AC-CUB","Unauthenticated Request",func_get_args(),CHttpRequest::getIsPostRequest());
 			$this->response($response);
 		 	return null;
 		}
+		
 		if (!CHttpRequest::getIsPostRequest()) {
 			$this->error("AC-CUB","Wrong Request",func_get_args(),CHttpRequest::getIsPostRequest());
 			$this->response($response);
