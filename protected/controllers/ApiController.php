@@ -29,10 +29,10 @@ class ApiController extends Controller
 	public function actionService(){
 		$auth=Yii::app()->request->getPost('auth',0);
 		$http_service_ticket=Yii::app()->request->getPost('http_service_ticket',0);
-		$kerberized=new KerberizedServer($auth,$http_service_ticket);
+		$kerberized=new KerberizedServer($auth,$http_service_ticket);	
 		$myarray=$kerberized->ticketValidation();
 
-		error_log("ticket validation:".serialize($myarray));	
+		//error_log("ticket validation:".serialize($myarray));	
 		$kerberized->authenticate();			
 	}
 
@@ -47,8 +47,8 @@ class ApiController extends Controller
 		
 
 		 $myarray=$kerberized->ticketValidation();
-		 error_log("array: ".$myarray);
-		 error_log("user_id:".$kerberized->getUserId());
+		 //error_log("array: ".$myarray);
+		 //error_log("user_id:".$kerberized->getUserId());
 		//$kerberized->authenticate();
 		if ($kerberized->getUserId()) {
 			return $kerberized->getUserId();
@@ -69,8 +69,8 @@ class ApiController extends Controller
 
 		 $myarray=$kerberized->ticketValidation();
 		// error_log("user_id:".$kerberized->getUserId());
-		 error_log("array: ".$myarray);
-		 error_log("user_id:".$kerberized->getUserId());
+		 //error_log("array: ".$myarray);
+		 //error_log("user_id:".$kerberized->getUserId());
 		$kerberized->authenticate();
 	}
 
@@ -115,11 +115,15 @@ class ApiController extends Controller
 
 	public function actionCheckUserBook()
 	{
+		$response=null;
+		
 		$ID=$this->authenticate();
 		if (!$ID) {
-			return null;
+			$this->error("AC-CUB","Unauthenticated Request",func_get_args(),CHttpRequest::getIsPostRequest());
+			$this->response($response);
+		 	return null;
 		}
-		$response=null;
+		
 		if (!CHttpRequest::getIsPostRequest()) {
 			$this->error("AC-CUB","Wrong Request",func_get_args(),CHttpRequest::getIsPostRequest());
 			$this->response($response);
@@ -127,8 +131,11 @@ class ApiController extends Controller
 		}
 
 		$book_id=CHttpRequest::getPost('book_id',0);
+		$ID=CHttpRequest::getPost('user_id',0);
 
 		if (!$this->checkUser($ID)) {
+			$this->error("AC-CUB","UserNotFound",func_get_args(),CHttpRequest::getIsPostRequest());
+			$this->response($response);
 			return null;
 		}
 		$user=User::model()->find('email=:email',array('email'=>$ID));
@@ -137,8 +144,9 @@ class ApiController extends Controller
 			$this->response($userBook->book_id);
 		}
 		else
-		{
-			$this->response(0);
+		{	
+			$this->error("AC-CUB","RecordNotFound",func_get_args(),CHttpRequest::getIsPostRequest());
+			$this->response($response);
 		}
 	}
 
