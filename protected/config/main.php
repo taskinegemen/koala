@@ -20,6 +20,13 @@ $db_config=array(
                         		'username' => 'db_koala',
                         		'password' => 'sTYpCXQ7vpTPc2xe',
                         		'charset' => 'utf8',
+                			),
+			"ulgen"=>array(
+                        		'connectionString' => 'mysql:host=datamaster.private.services.lindneo.com;port=3306;dbname=koala',
+                        		'emulatePrepare' => true,
+                        		'username' => 'db_koala',
+                        		'password' => 'sTYpCXQ7vpTPc2xe',
+                        		'charset' => 'utf8',
                 			)
 		
 		);
@@ -33,6 +40,7 @@ return array(
 
 	// autoloading model and component classes
 	'import'=>array(
+		'application.utilities.*',
 		'application.models.*',
 		'application.components.*',
 	),
