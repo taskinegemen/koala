@@ -97,11 +97,90 @@ class ApiController extends Controller
 		return true;
 	}
 
+	private function undeleteUserBook($book_id,$user_email){
+		$user=User::model()->find('email=:email',array('email'=>$user_email));
+		$userBook=UserBooks::model()->find('user_id=:user_id AND book_id=:book_id',array('user_id'=>$user->id,'book_id'=>$book_id));
+
+		if(!$userBook->deleted){
+			$this->error("AC-UDUB","NotDeleted",func_get_args(),$userBook->book_id);
+			return false;
+		}
+
+		$userBook->deleted=false;
+		if ($userBook->save()){
+			return true;
+		}
+		else {
+			$this->error("AC-UDUB","OperationIsNotSuccesful",func_get_args(),$userBook->book_id);
+			return fasle;
+		}
+
+	}
+
+	public function actionDeleteUserBook(){
+		$response = null;
+
+
+		if (!CHttpRequest::getIsPostRequest()) {
+			$this->error("AC-DUB","Wrong Request",func_get_args(),CHttpRequest::getIsPostRequest());
+			$this->response($response);
+			return null;
+		}
+
+		$ID=$this->authenticate();
+		if (!$ID && $ID!='NULL') {
+			$this->error("AC-DUB","Unauthenticated Request",func_get_args(),CHttpRequest::getIsPostRequest());
+			$this->response($response);
+			return null;
+		}
+		
+		if (!$this->checkUser($ID)) {
+			$this->error("AC-DUB","User Not Found",func_get_args(),CHttpRequest::getIsPostRequest());
+			$this->response($response);
+			return null;
+		}
+
+		$book_id=CHttpRequest::getPost('book_id',0);
+		if (!$this->checkUser($ID)) {
+			$this->error("AC-DUB","UserNotFound",func_get_args(),CHttpRequest::getIsPostRequest());
+			$this->response($response);
+			return null;
+		}
+
+		$user=User::model()->find('email=:email',array('email'=>$ID));
+		$userBook=UserBooks::model()->find('user_id=:user_id AND book_id=:book_id',array('user_id'=>$user->id,'book_id'=>$book_id));
+
+
+
+		if (!$userBook) {
+			$this->error("AC-DUB","RecordNotFound",func_get_args(),CHttpRequest::getIsPostRequest());
+			$this->response($response);
+			return null ;
+		}
+
+		
+		
+		if($userBook->deleted){
+			$this->error("AC-DUB","AlreadyDeleted",func_get_args(),$userBook->book_id);
+			$this->response($response);
+			return null;
+		}
+
+		$userBook->deleted=true;
+		if ($userBook->save()){
+			$this->response($userBook->book_id);
+			return null;
+		}
+		else {
+			$this->error("AC-DUB","OperationIsNotSuccesful",func_get_args(),$userBook->book_id);
+			$this->response($response);
+			return null;
+		}
+		
+	}
 
 	public function actionDocumentation()
 	{
-		
-
 		$this->render('documentation');
 	}
 
@@ -292,7 +371,7 @@ class ApiController extends Controller
 		$user=User::model()->find('email=:email',array('email'=>$ID));
 		$user_id=$user->id;
 
-		$userBooks=UserBooks::model()->findAll('user_id=:user_id',array('user_id'=>$user_id));
+		$userBooks=UserBooks::model()->findAll('user_id=:user_id AND  deleted is not true',array('user_id'=>$user_id));
 		if($userBooks){
 			foreach ($userBooks as $key => &$book) {
 				$book=$book->attributes;
