@@ -35,7 +35,7 @@ class UserBooks extends CActiveRecord
 			array('user_id, book_id', 'length', 'max'=>44),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('book_id, user_id, created', 'safe', 'on'=>'search'),
+			array('book_id, user_id, created, deleted', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -61,6 +61,7 @@ class UserBooks extends CActiveRecord
 			'book_id' => 'Book',
 			'user_id' => 'User',
 			'created' => 'Created',
+			'deleted' => 'Deleted',
 		);
 	}
 
